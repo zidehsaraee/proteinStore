@@ -1,0 +1,50 @@
+section .single-product-wraper {
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+section .single-product-wraper .single-card img {
+     max-width: 400px;
+}
+section .single-product-wraper>div {
+    flex: 1 1 10em;
+}
+section .single-product-wraper .single-pro-details {
+    padding: 10px;
+}
+section .single-product-wraper .single-pro-details h4{
+    font-size: 28px;
+
+}
+section .single-product-wraper .single-pro-details p{
+    font-size: 14px;
+    margin: 10px 0;
+}
+section .single-product-wraper .single-pro-details .single-product-content .price{
+    font-size: 24px;
+    color: rgb(202, 27, 27);
+    font-weight: bold;
+}
+section .single-product-wraper .single-pro-details .pro-footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 0;
+}
+section .single-product-wraper .single-pro-details .pro-footer .rate{
+    color: rgba(197, 168, 4, 0.89);
+}
+section .single-product-wraper .single-pro-details .pro-footer .add-to-care-btn{
+    background-color: rgb(14, 148, 148);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+section .single-product-wraper .single-pro-details .pro-footer .add-to-care-btn:hover{
+    background-color: rgb(11, 116, 116);
+}

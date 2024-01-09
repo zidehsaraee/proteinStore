@@ -1,0 +1,44 @@
+.cart-Wrapper {
+  width: 80%;
+  margin: 30px auto;
+}
+h1{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.cart-content-wrapper {
+  border: 1px solid #b2b2b2;
+  padding: 20px;
+  border-radius: 5px;
+}
+table,thead,tbody {
+  display: block;
+}
+
+table thead tr {
+  background-color: #b2b2b2;
+  padding: 15px 0;
+  border-radius: 5px;
+}
+table tbody tr button  {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+table tbody tr button span {
+  color: rgb(131, 130, 130)
+}
+
+tr {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+td img {
+  width: 60px;
+}
+td {
+  width: 90px;
+  margin: 0 auto;
+}
